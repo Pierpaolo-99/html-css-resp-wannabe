@@ -132,14 +132,7 @@ img {
 
     .container{
         width: 768px;
-    }
-
-    .site-header{
-        width: 768px;
-    }
-
-    .steps{
-        width: 768px;
+        max-width: 100%;
     }
 }
 
@@ -147,28 +140,11 @@ img {
 
     .container{
         width: 480px;
-        padding: 0;
-    }
-
-    .site-header{
-        width: 480px;
-    }
-
-    .steps{
-        width: 480px;
-        padding: 1rem 0;
-
-        h2{
-            margin-bottom: 0;
-        }
+        max-width: 100%;
     }
 
     .row{
         flex-direction: column;
         align-items: center;
-    }
-
-    .col{
-        padding: 0;
     }
 }
